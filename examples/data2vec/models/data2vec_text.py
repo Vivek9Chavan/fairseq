@@ -27,6 +27,8 @@ from fairseq.modules.transformer_sentence_encoder import init_bert_params
 
 logger = logging.getLogger(__name__)
 
+#No image file found!
+
 
 @dataclass
 class Data2VecTextConfig(FairseqDataclass):
